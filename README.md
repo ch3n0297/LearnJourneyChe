@@ -3,7 +3,7 @@
 
 ◉ **Own Website:** 
 
-◉ **Lab Website:**
+◉ **Lab Website:** https://sites.google.com/view/cgu-icps-lab/home
 
 ``` python
 print(這是codeing格式，方法為)
