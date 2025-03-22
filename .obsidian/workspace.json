@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "fca0ef5500c84955",
+    "id": "5ae5b3a1aedb7294",
     "type": "split",
     "children": [
       {
-        "id": "2f8403a3ff3a788a",
+        "id": "55fa7ea8a8b1b857",
         "type": "tabs",
         "children": [
           {
-            "id": "ce5dc3f45edf8cdf",
+            "id": "bf6dbc46e3cf4327",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "學習歷程....md",
-                "mode": "source",
+                "file": "生物資訊學作業1/BioinfoHomework1.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "學習歷程..."
+              "title": "BioinfoHomework1"
             }
           }
         ]
@@ -27,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cae7b8e9d007ac9d",
+    "id": "cd9ed9973753d6f9",
     "type": "split",
     "children": [
       {
-        "id": "378fdec62465a87e",
+        "id": "d00def15fd5e5056",
         "type": "tabs",
         "children": [
           {
-            "id": "a36ee5c1e68145c8",
+            "id": "b67bb132c518830e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d4f9df43ce2dc482",
+            "id": "ffb4df892655f2fb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "81628e6014a91ba9",
+            "id": "f3ffa1892e80a9c1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "51ad06d7107a6911",
+    "id": "079fa200299cfdd0",
     "type": "split",
     "children": [
       {
-        "id": "32d222943eeccfd6",
+        "id": "50cf90da305c6960",
         "type": "tabs",
         "children": [
           {
-            "id": "c83be58e74e37930",
+            "id": "d148236a28bbd101",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "學習歷程....md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,51 +103,43 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "學習歷程... 的反向連結"
+              "title": "反向連結"
             }
           },
           {
-            "id": "7b42e19c75f7b3af",
+            "id": "177d205e9b5f5776",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "學習歷程....md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "學習歷程... 的對外連結"
+              "title": "對外連結"
             }
           },
           {
-            "id": "157900e1eb9a34eb",
+            "id": "cbe5e1dcf2140864",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "標籤"
             }
           },
           {
-            "id": "9d15416aaa47c888",
+            "id": "9453985086311422",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "學習歷程....md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "學習歷程... 的大綱"
+              "title": "大綱"
             }
           }
         ]
@@ -168,9 +159,37 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "ce5dc3f45edf8cdf",
+  "active": "bf6dbc46e3cf4327",
   "lastOpenFiles": [
-    "datamining/dmHw1.pdf",
-    "學習歷程....md"
+    "How-to-use-git ?.md",
+    "星空音樂會1.md",
+    "使用GCP(Google Cloud Platform)當作VPN中繼伺服器教學.md",
+    "Docker使用指南.md",
+    "Parellel Programing.md",
+    "學生會活動部高幹會議記錄表.md",
+    "生物資訊學作業1/BioinfoHomework1.md",
+    "Data Mining/Data mining-Hw-1.md",
+    "生物資訊學作業1/Pasted image 20250320050414.png",
+    "^2.md",
+    "生物資訊學作業1/截圖 2025-03-20 凌晨4.46.49.png",
+    "生物資訊學作業1/Pasted image 20250320044314.png",
+    "生物資訊學作業1/Pasted image 20250320041914.png",
+    "生物資訊學作業1/Pasted image 20250320041857.png",
+    "生物資訊學作業1/Pasted image 20250320041341.png",
+    "生物資訊學作業1/Pasted image 20250320040649.png",
+    "生物資訊學作業1/截圖 2025-03-20 凌晨3.30.26.png",
+    "生物資訊學作業1/Pasted image 20250320035451.png",
+    "生物資訊學作業1/Pasted image 20250320035409.png",
+    "生物資訊學作業1",
+    "契約書.md",
+    "專題會議記錄-(2).md",
+    "README.md",
+    "How to use git ?.md",
+    "Data Mining",
+    "CarCase/車輛通過數量辨識系統.md",
+    "CarCase/離線車輛影像分析系統實作.md",
+    "CarCase/車輛追蹤計數系統架構.md",
+    "CarCase",
+    "未命名.canvas"
   ]
 }
