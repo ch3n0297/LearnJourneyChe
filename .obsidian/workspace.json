@@ -11,14 +11,12 @@
             "id": "bf6dbc46e3cf4327",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "生物資訊學作業1/BioinfoHomework1.md",
-                "mode": "preview",
-                "source": false
+                "file": "bioinfo/BioinfoHomework1_B1128019.pdf"
               },
-              "icon": "lucide-file",
-              "title": "BioinfoHomework1"
+              "icon": "lucide-file-text",
+              "title": "BioinfoHomework1_B1128019"
             }
           }
         ]
@@ -161,35 +159,9 @@
   },
   "active": "bf6dbc46e3cf4327",
   "lastOpenFiles": [
-    "How-to-use-git ?.md",
-    "星空音樂會1.md",
-    "使用GCP(Google Cloud Platform)當作VPN中繼伺服器教學.md",
-    "Docker使用指南.md",
-    "Parellel Programing.md",
-    "學生會活動部高幹會議記錄表.md",
-    "生物資訊學作業1/BioinfoHomework1.md",
-    "Data Mining/Data mining-Hw-1.md",
-    "生物資訊學作業1/Pasted image 20250320050414.png",
-    "^2.md",
-    "生物資訊學作業1/截圖 2025-03-20 凌晨4.46.49.png",
-    "生物資訊學作業1/Pasted image 20250320044314.png",
-    "生物資訊學作業1/Pasted image 20250320041914.png",
-    "生物資訊學作業1/Pasted image 20250320041857.png",
-    "生物資訊學作業1/Pasted image 20250320041341.png",
-    "生物資訊學作業1/Pasted image 20250320040649.png",
-    "生物資訊學作業1/截圖 2025-03-20 凌晨3.30.26.png",
-    "生物資訊學作業1/Pasted image 20250320035451.png",
-    "生物資訊學作業1/Pasted image 20250320035409.png",
-    "生物資訊學作業1",
-    "契約書.md",
-    "專題會議記錄-(2).md",
-    "README.md",
-    "How to use git ?.md",
-    "Data Mining",
-    "CarCase/車輛通過數量辨識系統.md",
-    "CarCase/離線車輛影像分析系統實作.md",
+    "bioinfo/生物資訊學作業1/BioinfoHomework1.md",
     "CarCase/車輛追蹤計數系統架構.md",
-    "CarCase",
-    "未命名.canvas"
+    "CarCase/離線車輛影像分析系統實作.md",
+    "CarCase/車輛通過數量辨識系統.md"
   ]
 }
