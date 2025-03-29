@@ -1,4 +1,6 @@
 {
-  "cssTheme": "Tokyo Night",
-  "translucency": true
+  "cssTheme": "Primary",
+  "translucency": true,
+  "theme": "moonstone",
+  "accentColor": "#beade6"
 }

@@ -1,3 +1,5 @@
 [
-  "code-styler"
+  "code-styler",
+  "better-export-pdf",
+  "obsidian-pandoc"
 ]

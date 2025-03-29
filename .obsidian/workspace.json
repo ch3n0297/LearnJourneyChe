@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "55fa7ea8a8b1b857",
+        "id": "72c400b0ba754026",
         "type": "tabs",
         "children": [
           {
-            "id": "bf6dbc46e3cf4327",
+            "id": "97300fe41f14f3e6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "bioinfo/BioinfoHomework1_B1128019.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "BioinfoHomework1_B1128019"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
             }
           }
         ]
@@ -76,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "079fa200299cfdd0",
@@ -157,9 +156,28 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "bf6dbc46e3cf4327",
+  "active": "97300fe41f14f3e6",
   "lastOpenFiles": [
+    "Ppd/PPD_HW1.md",
+    "Ppd/Homework1_B1128019/Ppd_Hw1_B1128019.zip",
+    "Ppd/Homework1_B1128019/封存.zip",
+    "Ppd/Homework1_B1128019/PPD_HW1.pdf",
     "bioinfo/生物資訊學作業1/BioinfoHomework1.md",
+    "PPD_HW1.md",
+    "Ppd/Homework1_B1128019/2-Pi/pi-collect.out",
+    "Ppd/Homework1_B1128019/2-Pi/pi-collect.c",
+    "Ppd/Homework1_B1128019/2-Pi/pi-s.out",
+    "Ppd/Homework1_B1128019/2-Pi/pi-s.c",
+    "Ppd/Homework1_B1128019/2-Pi/pi-p_to_p.out",
+    "Ppd/Homework1_B1128019/2-Pi/pi-p_to_p.c",
+    "Ppd/Homework1_B1128019/1-Matrix/pi-s.out",
+    "AIoT/AIoT Exercise.md",
+    "Pasted image 20250326233803.png",
+    "Data Mining/Data mining-Hw-1.md",
+    "nlp/NLP_HW1_B1128019.md",
+    "Pasted image 20250323211653.png",
+    "Pasted image 20250323190227.png",
+    "2025-03-23.md",
     "CarCase/車輛追蹤計數系統架構.md",
     "CarCase/離線車輛影像分析系統實作.md",
     "CarCase/車輛通過數量辨識系統.md"
