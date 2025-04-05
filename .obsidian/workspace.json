@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72c400b0ba754026",
+        "id": "c449b8afcdd55910",
         "type": "tabs",
         "children": [
           {
-            "id": "97300fe41f14f3e6",
+            "id": "ecebb07fa0a40cab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "nlp/期中考試重點問題.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "期中考試重點問題"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "079fa200299cfdd0",
@@ -156,8 +159,11 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "97300fe41f14f3e6",
+  "active": "ecebb07fa0a40cab",
   "lastOpenFiles": [
+    "nlp/NLP期中考試重點問題.pdf",
+    "nlp/期中考試重點問題.md",
+    "未命名.md",
     "Ppd/PPD_HW1.md",
     "Ppd/Homework1_B1128019/Ppd_Hw1_B1128019.zip",
     "Ppd/Homework1_B1128019/封存.zip",
@@ -170,7 +176,6 @@
     "Ppd/Homework1_B1128019/2-Pi/pi-s.c",
     "Ppd/Homework1_B1128019/2-Pi/pi-p_to_p.out",
     "Ppd/Homework1_B1128019/2-Pi/pi-p_to_p.c",
-    "Ppd/Homework1_B1128019/1-Matrix/pi-s.out",
     "AIoT/AIoT Exercise.md",
     "Pasted image 20250326233803.png",
     "Data Mining/Data mining-Hw-1.md",
