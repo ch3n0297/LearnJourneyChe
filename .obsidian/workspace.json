@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "nlp/期中考試重點問題.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "079fa200299cfdd0",
@@ -161,8 +162,9 @@
   },
   "active": "ecebb07fa0a40cab",
   "lastOpenFiles": [
-    "nlp/NLP期中考試重點問題.pdf",
+    "nlp/NLP_HW1_B1128019.pdf",
     "nlp/期中考試重點問題.md",
+    "nlp/NLP期中考試重點問題.pdf",
     "未命名.md",
     "Ppd/PPD_HW1.md",
     "Ppd/Homework1_B1128019/Ppd_Hw1_B1128019.zip",
