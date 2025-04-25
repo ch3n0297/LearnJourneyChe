@@ -1,0 +1,21 @@
+========== [1] Running serial.out ==========
+Approximated value of integral: 3.124451
+CPU time: 0.385773 s
+Total (wall) time: 0.387155 s
+--------------------------------------------
+========== [2] Running mpi.out with 4 processes ==========
+Approximated value of integral: 3.124451
+Execution time (wall-clock): 1.023126 s
+--------------------------------------------
+========== [3] Running pthread.out ==========
+Approximated value of integral: 3.124451
+Total (wall-clock) time: 1.027748 s
+--------------------------------------------
+========== [4] Running pthread-race.out (expect race condition) ==========
+Final sum (with race condition): 1097839
+Expected: 4000000
+--------------------------------------------
+========== [5] Running openmp.out ==========
+Approximated value of integral: 3.124451
+Execution time (wall-clock): 1.053305 s
+============================================

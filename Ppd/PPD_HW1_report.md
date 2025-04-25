@@ -270,11 +270,11 @@ Total simulation time: 49.234522
 
 總記憶體需求為：
 
-3×N×N×4 bytes3 \times N \times N \times 4\ \text{bytes}
+$3×N×N×4 bytes3 \times N \times N \times 4\ \text{bytes}$
 
-當 N=105N = 105 時：
+當$N = 105$ 時：
 
-3×105×105×4=132300 bytes≈129.3 KB3 \times 105 \times 105 \times 4 = 132300\ \text{bytes} ≈ 129.3\ \text{KB}
+$3 \times 105 \times 105 \times 4 = 132300\ \text{bytes} ≈ 129.3\ \text{KB}$
 
 因此，總記憶體使用量約為 **129.3 KB**。
 

@@ -4,22 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "c449b8afcdd55910",
+        "id": "b555f7da1cd61ab7",
         "type": "tabs",
         "children": [
           {
-            "id": "ecebb07fa0a40cab",
+            "id": "30b70d39f72f6901",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nlp/期中考試重點問題.md",
+                "file": "README.md",
                 "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            },
+            "group": "ccbdc968bdbedc93"
+          }
+        ]
+      },
+      {
+        "id": "cac22d61243f11f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d8d760d75d43da2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "期中考試重點問題"
-            }
+              "title": "README"
+            },
+            "group": "ccbdc968bdbedc93"
           }
         ]
       }
@@ -160,33 +182,49 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "ecebb07fa0a40cab",
+  "active": "30b70d39f72f6901",
   "lastOpenFiles": [
-    "nlp/NLP_HW1_B1128019.pdf",
-    "nlp/期中考試重點問題.md",
-    "nlp/NLP期中考試重點問題.pdf",
-    "未命名.md",
-    "Ppd/PPD_HW1.md",
-    "Ppd/Homework1_B1128019/Ppd_Hw1_B1128019.zip",
-    "Ppd/Homework1_B1128019/封存.zip",
+    "AIoT/Homework2_B1128019.md",
+    "AIoT/Pasted image 20250423063156.png",
+    "Obsidian_Guide_Summary.md",
+    "AIoT Demo Present.md",
+    "Terminal multiplexer.md",
+    "網安期中複習.md",
+    "AIoT/Homework2_B1128019.pdf",
+    "Terminal multiplexer 1.md",
+    "Meeting Minute/Meeting Point..md",
+    "Meeting Minute",
+    "AIoT/Meeting Point4-17.pdf",
+    "Ppd/PPD_HW2_report.md",
+    "Ppd/Pasted image 20250417225038.png",
+    "Ppd/Homework2_B1128019.zip",
+    "Ppd/Homework2_B1128019/PPD_HW2_report.pdf",
+    "Pasted image 20250417225038.png",
+    "Pasted image 20250417225027.png",
+    "Pasted image 20250417224818.png",
+    "Ppd/PPD_HW1_report.md",
+    "Ppd/平行計算效能比較.png",
     "Ppd/Homework1_B1128019/PPD_HW1.pdf",
     "bioinfo/生物資訊學作業1/BioinfoHomework1.md",
-    "PPD_HW1.md",
-    "Ppd/Homework1_B1128019/2-Pi/pi-collect.out",
-    "Ppd/Homework1_B1128019/2-Pi/pi-collect.c",
-    "Ppd/Homework1_B1128019/2-Pi/pi-s.out",
-    "Ppd/Homework1_B1128019/2-Pi/pi-s.c",
-    "Ppd/Homework1_B1128019/2-Pi/pi-p_to_p.out",
-    "Ppd/Homework1_B1128019/2-Pi/pi-p_to_p.c",
     "AIoT/AIoT Exercise.md",
-    "Pasted image 20250326233803.png",
-    "Data Mining/Data mining-Hw-1.md",
-    "nlp/NLP_HW1_B1128019.md",
-    "Pasted image 20250323211653.png",
-    "Pasted image 20250323190227.png",
-    "2025-03-23.md",
-    "CarCase/車輛追蹤計數系統架構.md",
+    "AIoT/AIoT Exercise.pdf",
+    "Pasted image 20250416221337.png",
+    "README.md",
+    "bioinfo/生物資訊學作業1/Pasted image 20250320044314.png",
+    "bioinfo/生物資訊學作業1/截圖 2025-03-20 凌晨4.46.49.png",
+    "bioinfo/生物資訊學作業1/Pasted image 20250320050414.png",
+    "bioinfo/BioinfoHomework1_B1128019.pdf",
+    "KeyVector.md",
+    "Ppd期中考重點整理.md",
+    "CarCase/車輛通過數量辨識系統.md",
     "CarCase/離線車輛影像分析系統實作.md",
-    "CarCase/車輛通過數量辨識系統.md"
+    "CarCase/車輛追蹤計數系統架構.md",
+    "nlp/NLP_HW1_B1128019.md",
+    "nlp/NLP_HW1_B1128019.pdf",
+    "nlp/期中考試重點問題.md",
+    "暫用.md",
+    "nlp/NLP期中考試重點問題.pdf",
+    "PPD_HW1.md",
+    "Data Mining/Data mining-Hw-1.md"
   ]
 }

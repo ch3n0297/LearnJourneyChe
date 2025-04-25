@@ -1,0 +1,34 @@
+#!/bin/bash
+#SBATCH -A ACD114019           # Account name/project number
+#SBATCH -p ctest               # Queue name
+#SBATCH -n 4                   # Number of MPI tasks
+#SBATCH -c 1                   # Number of cores per MPI task
+#SBATCH -N 1                   # Total number of nodes requested
+#SBATCH -o %j.out              # Stdout file
+#SBATCH -e %j.err              # Stderr file
+
+# === 環境模組設定 ===
+module purge
+module load intel/2020u4 intelmpi/2020u4
+
+# === 執行序列 ===
+echo "========== [1] Running serial.out =========="
+./serial.out
+echo "--------------------------------------------"
+
+echo "========== [2] Running mpi.out with 4 processes =========="
+mpirun -n $SLURM_NTASKS ./mpi.out
+echo "--------------------------------------------"
+
+echo "========== [3] Running pthread.out =========="
+./pthread.out
+echo "--------------------------------------------"
+
+echo "========== [4] Running pthread-race.out (expect race condition) =========="
+./pthread-race.out
+echo "--------------------------------------------"
+
+echo "========== [5] Running openmp.out =========="
+./openmp.out
+echo "============================================"
+

@@ -2,5 +2,6 @@
   "cssTheme": "Primary",
   "translucency": true,
   "theme": "moonstone",
-  "accentColor": "#beade6"
+  "accentColor": "#beade6",
+  "showRibbon": false
 }

@@ -18,8 +18,10 @@ print(這是codeing格式，方法為)
 
 |課程列表|資料夾位置|
 | --- | --- |
-|智慧物聯網|[]()|
-|||
+|智慧物聯網|[AIoT]()|
+|自然語言處理|[NLP]()|
+|進階人工智慧程式設計|[AIP]()|
+
 
 ### **☞ Contract**
 <span style="font-family: cursive; font-size: 20px;">This my work mail: hjcaieng@gmail.com</span>
