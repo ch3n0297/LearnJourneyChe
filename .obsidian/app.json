@@ -9,5 +9,8 @@
   "promptDelete": false,
   "defaultViewMode": "preview",
   "rightToLeft": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "trashOption": "system",
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "image_storage"
 }

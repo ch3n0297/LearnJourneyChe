@@ -3,5 +3,7 @@
   "translucency": true,
   "theme": "moonstone",
   "accentColor": "#beade6",
-  "showRibbon": false
+  "showRibbon": false,
+  "interfaceFontFamily": "Comic Sans MS",
+  "textFontFamily": "Comic Sans MS"
 }
