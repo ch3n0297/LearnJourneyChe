@@ -1,3 +1,3 @@
 .DS_Store
-.worklist/*
-!.worklist/.gitkeep
+worklist/*
+!worklist/.gitkeep
