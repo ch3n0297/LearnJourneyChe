@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b555f7da1cd61ab7",
+        "id": "7e558fb8f706833e",
         "type": "tabs",
         "children": [
           {
-            "id": "30b70d39f72f6901",
+            "id": "01b4f631b36062ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "新分頁"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "079fa200299cfdd0",
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向連結"
+              "title": "反向連結"
             }
           },
           {
@@ -114,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的對外連結"
+              "title": "對外連結"
             }
           },
           {
@@ -159,55 +152,55 @@
       "canvas:建立新畫布": false,
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
-      "command-palette:開啟命令面板": false,
-      "markdown-importer:開啟 Markdown 格式轉換器": false,
-      "workspaces:管理工作區配置": false
+      "command-palette:開啟命令面板": false
     }
   },
-  "active": "30b70d39f72f6901",
+  "active": "01b4f631b36062ca",
   "lastOpenFiles": [
+    "網安期中複習.md",
+    "worklist",
+    "LearnJourneyChe",
     "README.md",
-    "image_storage/Pasted image 20250426173400.png",
-    "others/Test.md",
-    "未命名",
-    "image_storage",
-    "Pasted image 20250426173133.png",
-    "未命名檔案夾",
-    "AIoT/Homework2_B1128019.md",
-    "AIoT/Pasted image 20250423063156.png",
     "Obsidian_Guide_Summary.md",
+    "KeyVector.md",
     "AIoT Demo Present.md",
     "Terminal multiplexer.md",
-    "網安期中複習.md",
-    "AIoT/Homework2_B1128019.pdf",
-    "Terminal multiplexer 1.md",
-    "Meeting Minute/Meeting Point..md",
-    "Meeting Minute",
-    "AIoT/Meeting Point4-17.pdf",
-    "Ppd/PPD_HW2_report.md",
+    "LearnJourneyChe/網安期中複習.md",
+    "LearnJourneyChe/others/使用GCP(Google Cloud Platform)當作VPN中繼伺服器教學.md",
+    "LearnJourneyChe/others/Test.md",
+    "LearnJourneyChe/others",
+    "LearnJourneyChe/nlp/期中考試重點問題.md",
+    "LearnJourneyChe/nlp/main.ipynb",
+    "LearnJourneyChe/nlp/NLP_HW1_B1128019.pdf",
+    "LearnJourneyChe/nlp/NLP_HW1_B1128019.md",
+    "LearnJourneyChe/nlp",
+    "LearnJourneyChe/bioinfo/生物資訊學作業1/BioinfoHomework1.md",
+    "LearnJourneyChe/bioinfo/生物資訊學作業1",
+    "LearnJourneyChe/bioinfo/BioinfoHomework1_B1128019.pdf",
+    "LearnJourneyChe/bioinfo",
+    "LearnJourneyChe/Terminal multiplexer.md",
+    "LearnJourneyChe/README.md",
+    "LearnJourneyChe/image_storage/Pasted image 20250426173400.png",
+    "LearnJourneyChe/image_storage",
+    "LearnJourneyChe/Ppd/PPD_HW2_report.md",
+    "LearnJourneyChe/Ppd/PPD_HW1_report.md",
+    "LearnJourneyChe/Obsidian_Guide_Summary.md",
+    "LearnJourneyChe/Meeting Minute/Meeting Point..md",
+    "LearnJourneyChe/KeyVector.md",
+    "LearnJourneyChe/Data Mining/Data mining-Hw-1.md",
+    "LearnJourneyChe/CarCase/離線車輛影像分析系統實作.md",
+    "LearnJourneyChe/CarCase/車輛通過數量辨識系統.md",
+    "LearnJourneyChe/CarCase/車輛追蹤計數系統架構.md",
+    "LearnJourneyChe/AIoT/Homework2_B1128019.md",
+    "LearnJourneyChe/AIoT/AIoT Exercise.md",
+    "image_storage/Pasted image 20250426173400.png",
+    "Pasted image 20250426173133.png",
+    "AIoT/Pasted image 20250423063156.png",
     "Ppd/Pasted image 20250417225038.png",
-    "Ppd/Homework2_B1128019.zip",
-    "Ppd/Homework2_B1128019/PPD_HW2_report.pdf",
     "Pasted image 20250417225038.png",
     "Pasted image 20250417225027.png",
     "Pasted image 20250417224818.png",
-    "Ppd/PPD_HW1_report.md",
     "Ppd/平行計算效能比較.png",
-    "Ppd/Homework1_B1128019/PPD_HW1.pdf",
-    "bioinfo/生物資訊學作業1/BioinfoHomework1.md",
-    "AIoT/AIoT Exercise.md",
-    "AIoT/AIoT Exercise.pdf",
-    "Pasted image 20250416221337.png",
-    "bioinfo/生物資訊學作業1/Pasted image 20250320044314.png",
-    "KeyVector.md",
-    "Ppd期中考重點整理.md",
-    "CarCase/車輛通過數量辨識系統.md",
-    "CarCase/離線車輛影像分析系統實作.md",
-    "CarCase/車輛追蹤計數系統架構.md",
-    "nlp/NLP_HW1_B1128019.md",
-    "nlp/期中考試重點問題.md",
-    "暫用.md",
-    "PPD_HW1.md",
-    "Data Mining/Data mining-Hw-1.md"
+    "Pasted image 20250416221337.png"
   ]
 }

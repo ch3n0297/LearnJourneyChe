@@ -1,3 +1,6 @@
-*.png
-*.md
 .DS_Store
+
+# 忽略 .worklist 資料夾內的所有內容
+.worklist/*
+# 但允許 .gitkeep 這個檔案被追蹤
+!.worklist/.gitkeep
