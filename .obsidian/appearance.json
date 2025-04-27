@@ -4,6 +4,6 @@
   "theme": "moonstone",
   "accentColor": "#beade6",
   "showRibbon": false,
-  "interfaceFontFamily": "Comic Sans MS",
-  "textFontFamily": "Comic Sans MS"
+  "interfaceFontFamily": "Times New Roman,Comic Sans MS",
+  "textFontFamily": "Times New Roman,Comic Sans MS"
 }

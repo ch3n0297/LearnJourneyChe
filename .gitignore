@@ -1,3 +1,5 @@
 .DS_Store
 worklist/*
 !worklist/.gitkeep
+image_storage/*
+!image_storage/.gitkeep

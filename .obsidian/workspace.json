@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e558fb8f706833e",
+        "id": "b0dc1ebd908b174c",
         "type": "tabs",
         "children": [
           {
-            "id": "01b4f631b36062ca",
+            "id": "4943b2a2e6ce046e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -155,11 +155,26 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "01b4f631b36062ca",
+  "active": "4943b2a2e6ce046e",
   "lastOpenFiles": [
+    "Data Mining/B1128019黃教丞HW2.zip",
+    "Data Mining/HW2.zip",
+    "worklist/dmHW2.md",
+    "Data Mining/HW2/dmHW2.pdf",
+    "Data Mining/HW2",
+    "worklist/image_storage/Pasted image 20250427181410.png",
+    "worklist/image_storage/Pasted image 20250427180947.png",
+    "image_storage/Pasted image 20250427180916.png",
+    "image_storage",
+    "worklist/image_storage/Pasted image 20250427180858.png",
+    "Data Mining/HW1/googleplaystore.csv",
+    "Data Mining/HW1/Dm-Hw01.ipynb",
+    "Data Mining/HW1/Data mining-Hw-1.pdf",
+    "Data Mining/HW1/113.2 DATA MINING HOMEWORK 1.pdf",
+    "Data Mining/HW1/B1128019黃教丞HW1/googleplaystore.csv",
+    "Data Mining/HW1/B1128019黃教丞HW1/113.2 DATA MINING HOMEWORK 1.pdf",
+    "Data Mining/dwHW2.md",
     "網安期中複習.md",
-    "worklist",
-    "LearnJourneyChe",
     "README.md",
     "Obsidian_Guide_Summary.md",
     "KeyVector.md",
@@ -168,20 +183,12 @@
     "LearnJourneyChe/網安期中複習.md",
     "LearnJourneyChe/others/使用GCP(Google Cloud Platform)當作VPN中繼伺服器教學.md",
     "LearnJourneyChe/others/Test.md",
-    "LearnJourneyChe/others",
     "LearnJourneyChe/nlp/期中考試重點問題.md",
-    "LearnJourneyChe/nlp/main.ipynb",
-    "LearnJourneyChe/nlp/NLP_HW1_B1128019.pdf",
     "LearnJourneyChe/nlp/NLP_HW1_B1128019.md",
-    "LearnJourneyChe/nlp",
     "LearnJourneyChe/bioinfo/生物資訊學作業1/BioinfoHomework1.md",
-    "LearnJourneyChe/bioinfo/生物資訊學作業1",
-    "LearnJourneyChe/bioinfo/BioinfoHomework1_B1128019.pdf",
-    "LearnJourneyChe/bioinfo",
     "LearnJourneyChe/Terminal multiplexer.md",
     "LearnJourneyChe/README.md",
     "LearnJourneyChe/image_storage/Pasted image 20250426173400.png",
-    "LearnJourneyChe/image_storage",
     "LearnJourneyChe/Ppd/PPD_HW2_report.md",
     "LearnJourneyChe/Ppd/PPD_HW1_report.md",
     "LearnJourneyChe/Obsidian_Guide_Summary.md",
@@ -191,16 +198,10 @@
     "LearnJourneyChe/CarCase/離線車輛影像分析系統實作.md",
     "LearnJourneyChe/CarCase/車輛通過數量辨識系統.md",
     "LearnJourneyChe/CarCase/車輛追蹤計數系統架構.md",
-    "LearnJourneyChe/AIoT/Homework2_B1128019.md",
-    "LearnJourneyChe/AIoT/AIoT Exercise.md",
     "image_storage/Pasted image 20250426173400.png",
     "Pasted image 20250426173133.png",
     "AIoT/Pasted image 20250423063156.png",
     "Ppd/Pasted image 20250417225038.png",
-    "Pasted image 20250417225038.png",
-    "Pasted image 20250417225027.png",
-    "Pasted image 20250417224818.png",
-    "Ppd/平行計算效能比較.png",
-    "Pasted image 20250416221337.png"
+    "Pasted image 20250417225038.png"
   ]
 }

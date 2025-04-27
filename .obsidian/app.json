@@ -12,5 +12,6 @@
   "readableLineLength": false,
   "trashOption": "system",
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "image_storage"
+  "attachmentFolderPath": "worklist/image_storage",
+  "livePreview": false
 }
