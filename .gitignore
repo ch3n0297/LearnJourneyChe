@@ -3,3 +3,4 @@ worklist/*
 !worklist/.gitkeep
 image_storage/*
 !image_storage/.gitkeep
+.gitignore
