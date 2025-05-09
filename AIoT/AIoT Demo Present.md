@@ -4,28 +4,11 @@
 
 ---
 
-### Step 1: Data Preprocessing
+### Action Space
 
-> First, I loaded the dataset using Pandas.  
-> Each data row includes the time, user activity, the state of the appliance, and the electricity price.
 
-> I then defined a function to extract the **state**, which is a tuple of:
-> 
-> - the current hour,
->     
-> - whether the user is present,
->     
-> - and whether the appliance is currently on or off.
->     
 ```python
-import pandas as pd
-
-# read the dataset
-df = pd.read_csv("smart_home_dataset.csv")
-print(df.head())
-
-def extract_state(row):
-    return (int(row['Time']), int(row['User Activity']), int(row['Appliance State']))
+actions = [0, 1] # 0: turn off the light, 1: turn on the light
 ```
 ---
 
@@ -151,6 +134,8 @@ class QLearningAgent:
 
 ### Step 4: Training the Agent
 
+In this offline Q-Learning setup, the term "epoch" refers to one complete iteration through the dataset. Although this differs from the typical use of "episode" in online reinforcement learning, it is a practical usage when training on static data.
+
 > I trained the agent over **3000 epochs**.  
 > In each epoch, the agent:
 > 
@@ -162,7 +147,6 @@ class QLearningAgent:
 >     
 > 4. updates the Q-table.
 
-In this offline Q-Learning setup, the term "epoch" refers to one complete iteration through the dataset. Although this differs from the typical use of "episode" in online reinforcement learning, it is a practical usage when training on static data.
 
 > I also added **epsilon decay**, so it explores more in early training and becomes more stable later on.
 ```python
@@ -270,19 +254,7 @@ print(f"Random Agent Reward: {random_reward}")
 
 > The agent has successfully learned a time-sensitive and user-aware behavior strategy. It optimizes appliance usage to reduce cost and maintain comfort, and performs much better than a random baseline.
 
----
 
-如果你需要我幫你這段整理成：
-
-- Markdown 段落（可以用在 Typora 或簡報筆記）
-    
-- PowerPoint Slide 模板（含表格與圖說格式）
-    
-- 中英文對照說法（如果老師或觀眾是雙語）
-    
-
-我都可以幫你一次完成。需要我幫你整理到哪個格式呢？
----
 
 ### 📊 Step 6: Policy Visualization
 
