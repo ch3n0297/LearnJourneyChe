@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5f511bd834a4e99e",
+        "id": "dc8248ab945338c5",
         "type": "tabs",
         "children": [
           {
-            "id": "cbd2aa9d161b2a12",
+            "id": "41b7aab4a4f62a7c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "079fa200299cfdd0",
@@ -155,24 +156,30 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "b67bb132c518830e",
+  "active": "41b7aab4a4f62a7c",
   "lastOpenFiles": [
-    "nlp/NLP_Finalproject/EDA.pdf",
-    "nlp/NLP_Finalproject",
+    "Ppd/Homework3_B1128019/Homework3_B1128019_report.md",
+    "Ppd/Homework3_B1128019.zip",
+    "Ppd/Homework3_B1128019/Pasted image 20250510225210.png",
+    "Ppd/Homework3_B1128019/1-mandelbrot/serial-15303380.out",
+    "Ppd/Homework3_B1128019/1-mandelbrot/serial-15303380.err",
+    "Ppd/Homework3_B1128019/1-mandelbrot/omp-15303383.out",
+    "Ppd/Homework3_B1128019/1-mandelbrot/omp-15303383.err",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mpi-static-15303381.out",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mpi-static-15303381.err",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mpi-dynamic-15303382.out",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mpi-dynamic-15303382.err",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mandelbrot_rgb(serial).ppm",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mandelbrot_rgb(serial).png",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mandelbrot_rgb(omp).png",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mandelbrot_rgb(mpi-static).png",
+    "Ppd/Homework3_B1128019/1-mandelbrot/mandelbrot_rgb(mpi-dynamic).png",
+    "Ppd/Homework3_B1128019/mandelbrot_rgb(omp).png",
     "AIoT/AIoT Demo Present.md",
     "worklist/EDA.md",
-    "AIoT/Homework2_B1128019.pdf",
-    "AIoT/AIoT Exercise.pdf",
-    "nlp/NLP_HW3_B1128019/NLP_HW3_B1128019.pdf",
     "worklist/AIoT Exercise.md",
     "worklist/NLP_HW3_B1128019.md",
-    "nlp/NLP_HW3_B1128019/~$P_HW3_B1128019.docx",
-    "nlp/NLP_HW3_B1128019/NLP_HW3_B1128019.docx",
-    "nlp/NLP_HW3_B1128019/NLP_HW3_B1128019.py",
-    "Data Mining/B1128019黃教丞HW2.zip",
-    "Data Mining/HW2.zip",
     "worklist/dmHW2.md",
-    "Data Mining/HW2/dmHW2.pdf",
     "worklist/image_storage/Pasted image 20250427181410.png",
     "worklist/image_storage/Pasted image 20250427180947.png",
     "image_storage/Pasted image 20250427180916.png",
@@ -192,16 +199,9 @@
     "LearnJourneyChe/bioinfo/生物資訊學作業1/BioinfoHomework1.md",
     "LearnJourneyChe/Terminal multiplexer.md",
     "LearnJourneyChe/README.md",
-    "LearnJourneyChe/image_storage/Pasted image 20250426173400.png",
     "LearnJourneyChe/Ppd/PPD_HW2_report.md",
     "LearnJourneyChe/Ppd/PPD_HW1_report.md",
     "LearnJourneyChe/Obsidian_Guide_Summary.md",
-    "LearnJourneyChe/Meeting Minute/Meeting Point..md",
-    "LearnJourneyChe/KeyVector.md",
-    "image_storage/Pasted image 20250426173400.png",
-    "Pasted image 20250426173133.png",
-    "AIoT/Pasted image 20250423063156.png",
-    "Ppd/Pasted image 20250417225038.png",
-    "Pasted image 20250417225038.png"
+    "LearnJourneyChe/Meeting Minute/Meeting Point..md"
   ]
 }

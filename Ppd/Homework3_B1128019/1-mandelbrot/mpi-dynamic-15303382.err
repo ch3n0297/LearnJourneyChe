@@ -1,0 +1,2 @@
+[MPI-Dynamic] compute=2.756727 s (max-rank), comm=0.484105 s, IO=4.310669 s, total=7.551501 s
+Image saved to mandelbrot_rgb(mpi-dynamic).ppm  (use convert to PNG if needed)

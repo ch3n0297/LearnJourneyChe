@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -A ACD114019
+#SBATCH -p ctest
+#SBATCH -N 1
+#SBATCH -n 8                  # 使用 8 MPI rank
+#SBATCH -c 1
+#SBATCH -J Mandelbrot-MPI-Static
+#SBATCH -o mpi-static-%j.out
+#SBATCH -e mpi-static-%j.err
+
+module purge
+module load intel/2020u4 intelmpi/2020u4
+
+mpirun -n 8 ./mandelbrot-mpi-static.out 5000 5000 5000 5000 > log-mpi-static.txt

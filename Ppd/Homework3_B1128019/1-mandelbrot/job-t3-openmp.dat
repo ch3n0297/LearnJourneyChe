@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -A ACD114019
+#SBATCH -p ctest
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -c 12                 # 一個 rank 使用 12 執行緒
+#SBATCH -J Mandelbrot-OpenMP
+#SBATCH -o omp-%j.out
+#SBATCH -e omp-%j.err
+
+module purge
+module load intel/2020u4
+
+export OMP_NUM_THREADS=12
+./mandelbrot-omp.out 5000 5000 5000 5000 > log-omp.txt

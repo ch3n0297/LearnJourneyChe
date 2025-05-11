@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -A ACD114019
+#SBATCH -p ctest
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -c 1
+#SBATCH -J Mandelbrot-Serial
+#SBATCH -o serial-%j.out
+#SBATCH -e serial-%j.err
+
+module purge
+module load intel/2020u4 intelmpi/2020u4
+
+./mandelbrot-s.out 5000 5000 > log-serial.txt

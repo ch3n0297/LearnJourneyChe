@@ -1,0 +1,2 @@
+[OpenMP] compute=1.557273 s, comm=0.000000 s, IO=3.109060 s, total=4.666334 s
+Image saved to mandelbrot_rgb(omp).ppm  (use convert to PNG if needed)

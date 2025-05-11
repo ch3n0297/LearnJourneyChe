@@ -1,0 +1,2 @@
+[MPI-Static] compute=6.287232 s (max-rank), comm=0.010434 s, IO=3.721289 s, total=10.018955 s
+Image saved to mandelbrot_rgb(mpi-static).ppm  (use convert to PNG if needed)
