@@ -1,0 +1,41 @@
+#!/bin/bash
+#SBATCH -A ACD114019  # Account name/project number
+#SBATCH -p ctest
+#SBATCH -n 8        # Number of MPI tasks (i.e. processes)
+#SBATCH -c 1          # Number of cores per MPI task
+#SBATCH -N 1           # Total number of nodes requested
+#SBATCH -o %j.out
+#SBATCH -e %j.err
+
+
+module purge
+module load intel/2020u4 intelmpi/2020u4
+
+INPUT=rand100M.txt      # <<< 修改成你的測試檔路徑
+B=33554432              # 32 MiB
+K=512
+
+####################  編譯四套版本  ####################
+# Serial
+gcc  -O3 -march=native -std=c11            -o sort_verify.out        sort_verifier_serial.c
+# OpenMP 8 threads
+gcc  -O3 -march=native -std=c11 -fopenmp  -o sort_verify_omp.out     sort_verifier_omp.c
+# MPI‑Static  (8 ranks)
+mpicc -O3 -march=native -std=c11           -o sort_verify_mpi_s.out  sort_verifier_mpi_s.c
+# MPI‑Dynamic (8 ranks)
+mpicc -O3 -march=native -std=c11           -o sort_verify_mpi_d.out  sort_verifier_mpi_d.c
+
+echo "======= sort_verify.out (Serial) ======="
+./sort_verify.out -i "$INPUT" -k $K -b $B -t
+
+echo "======= sort_verify_omp.out (OpenMP, 8 threads) ======="
+export OMP_NUM_THREADS=8
+./sort_verify_omp.out -i "$INPUT" -k $K -b $B -t
+unset OMP_NUM_THREADS
+
+echo "======= sort_verify_mpi_s.out (MPI‑Static, 8 ranks) ======="
+mpirun -np 8 ./sort_verify_mpi_s.out -t "$INPUT"
+
+echo "======= sort_verify_mpi_d.out (MPI‑Dynamic, 8 ranks) ======="
+mpirun -np 8 ./sort_verify_mpi_d.out -t "$INPUT"
+

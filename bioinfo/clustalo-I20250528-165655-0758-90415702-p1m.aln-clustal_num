@@ -1,0 +1,58 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+sp|P04637|P53_HUMAN         ---MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLP---SQAMDDLMLSPDDIEQWF	54
+sp|P10361|P53_RAT           ---MEDSQSDMSIELPLSQETFSCLWKLLPPDDILPTTATGSPNSMEDLFL-PQDVAELL	56
+sp|P02340|P53_MOUSE         MTAMEESQSDISLELPLSQETFSGLWKLLPPEDILPS-----PHCMDDLLL-PQDVEEFF	54
+sp|P46318|PTJB_BACSU        ------------------------------------------------------------	0
+tr|Q9SYS8|Q9SYS8_MAIZE      ------------------------------------------------------------	0
+                                                                                        
+
+sp|P04637|P53_HUMAN         TEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFL	114
+sp|P10361|P53_RAT           E---GPEEALQVS-APAAQEPGTEAPAPVAPASATPWPLSSSVPSQKTYQGNYGFHLGFL	112
+sp|P02340|P53_MOUSE         E---GPSEALRVSGAPAAQDPVTETPGPVAPAPATPWPLSSFVPSQKTYQGNYGFHLGFL	111
+sp|P46318|PTJB_BACSU        ------------------------------------------------------------	0
+tr|Q9SYS8|Q9SYS8_MAIZE      ------------------------------------------------------------	0
+                                                                                        
+
+sp|P04637|P53_HUMAN         HSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHM-----	169
+sp|P10361|P53_RAT           QSGTAKSVMCTYSISLNKLFCQLAKTCPVQLWVTSTPPPGTRVRAMAIYKKSQHM-----	167
+sp|P02340|P53_MOUSE         QSGTAKSVMCTYSPPLNKLFCQLAKTCPVQLWVSATPPAGSRVRAMAIYKKSQHM-----	166
+sp|P46318|PTJB_BACSU        ----------------MNILLVCAAGMSTSLLVSKMEKSA--------------------	24
+tr|Q9SYS8|Q9SYS8_MAIZE      -----------FRDQIYDIFQLLPAKIQVGVFSATMPPEALEITRKFMNKPVRILVKRDE	49
+                                             .::        . :        .                    
+
+sp|P04637|P53_HUMAN         ----------TEV-VRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRH----	214
+sp|P10361|P53_RAT           ----------TEV-VRRCPHHERCSDGDGLAPPQHLIRVEGNPYAEYLDDRQTFRH----	212
+sp|P02340|P53_MOUSE         ----------TEV-VRRCPHHERCSDGDGLAPPQHLIRVEGNLYPEYLEDRQTFRH----	211
+sp|P46318|PTJB_BACSU        --------------------------------------------------QEQGKDYTIW	34
+tr|Q9SYS8|Q9SYS8_MAIZE      LTLEGIKQFYVNVDKEDWKLDTLCDLYETLAITQSVIFVNTRRKVDWLTDKMRSRDHTVS	109
+                                                                              :   :.    
+
+sp|P04637|P53_HUMAN         -----------------------------------------SVVVPYEPPEVGSDCTTIH	233
+sp|P10361|P53_RAT           -----------------------------------------SVVVPYEPPEVGSDYTTIH	231
+sp|P02340|P53_MOUSE         -----------------------------------------SVVVPYEPPEAGSEYTTIH	230
+sp|P46318|PTJB_BACSU        AVSGDSVQNHIDK---------------ADVLLLG-------PQVRYMLPQL--------	64
+tr|Q9SYS8|Q9SYS8_MAIZE      ATHGDMDQNTRDIIMREFRSGSSRVLITTDLLARGIDVQQVSLVINYDLPTQPENY----	165
+                                                                        : *  *          
+
+sp|P04637|P53_HUMAN         YNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRK--	291
+sp|P10361|P53_RAT           YKYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRDSFEVRVCACPGRDRRTEEENFRK--	289
+sp|P02340|P53_MOUSE         YKYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRDSFEVRVCACPGRDRRTEEENFRK--	288
+sp|P46318|PTJB_BACSU        ----KKLGES------------------------KGVPVDVINTVHYGTCNGAEVLKSAE	96
+tr|Q9SYS8|Q9SYS8_MAIZE      ---LHRIGRSGRF-------------------GRKGVAINFVT------RDDERMLFDIQ	197
+                                 . .                          ... : .            . : .  
+
+sp|P04637|P53_HUMAN         --KGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALE	349
+sp|P10361|P53_RAT           --KEEHCPELPPGSAKRALPTSTSSSPQQKKKPLDGEYFTLKIRGRERFEMFRELNEALE	347
+sp|P02340|P53_MOUSE         --KEVLCPELPPGSAKRALPTCTSASPPQKKKPLDGEYFTLKIRGRKRFEMFRELNEALE	346
+sp|P46318|PTJB_BACSU        QLGHVS------------------------------------------------------	102
+tr|Q9SYS8|Q9SYS8_MAIZE      KFYNVLIEELPANVADLL------------------------------------------	215
+                                                                                        
+
+sp|P04637|P53_HUMAN         LKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD	393
+sp|P10361|P53_RAT           LKDARAAEESGDSRAHSSYPKTKKGQSTSRHKKPMIKKVGPDSD	391
+sp|P02340|P53_MOUSE         LKDAHATEESGDSRAHSSYLKTKKGQSTSRHKKTMVKKVGPDSD	390
+sp|P46318|PTJB_BACSU        --------------------------------------------	102
+tr|Q9SYS8|Q9SYS8_MAIZE      --------------------------------------------	215
+                                                                        

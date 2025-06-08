@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH -A ACD114019           # Account name/project number
+#SBATCH -p ctest               # Queue name
+#SBATCH -n 24                  # Max MPI tasks (largest test case)
+#SBATCH -c 1                   # Number of cores per MPI task
+#SBATCH -N 1                   # Total number of nodes requested
+#SBATCH -o %j.out              # Stdout file
+#SBATCH -e %j.err              # Stderr file
+
+# === 環境模組設定 ===
+module purge
+module load intel/2020u4 intelmpi/2020u4
+
+# === 執行序列 ===
+echo "========== [1] Running serial.out (single‑thread) =========="
+./serial.out
+echo "--------------------------------------------"
+
+# List of process counts to test
+for p in 1 2 4 8 12 24; do
+  echo "========== [2] mpi_bucket.out  | processes = ${p} =========="
+  mpirun -n ${p} ./mpi_bucket.out
+  echo "--------------------------------------------"
+
+  echo "========== [3] mpi_pipeline.out | processes = ${p} =========="
+  mpirun -n ${p} ./mpi_pipeline.out
+  echo "============================================"
+done

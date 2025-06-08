@@ -1,0 +1,7 @@
+Epoch,Setting,Spearman Corr,Accuracy,F1 Score
+1,Single Task,0.871367,0.89,0.883205
+2,Single Task,0.896734,0.894,0.886625
+3,Single Task,0.881552,0.866,0.867344
+1,Multi Task,0.767107,0.566,0.245315
+2,Multi Task,0.840019,0.72,0.513814
+3,Multi Task,0.861558,0.834,0.826061

@@ -1,0 +1,4 @@
+Epoch,Baseline Spearman,LoRA Spearman,Baseline Accuracy,LoRA Accuracy,Baseline F1 Score,LoRA F1 Score
+1,0.8788,0.6695,0.908,0.564,0.9039,0.2404
+2,0.8751,0.8342,0.91,0.72,0.9045,0.5136
+3,0.8731,0.8688,0.912,0.808,0.9066,0.736

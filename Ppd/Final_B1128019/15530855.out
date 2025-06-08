@@ -1,0 +1,20 @@
+======= sort_verify.out (Serial) =======
+Array is NOT sorted.
+First adjacent inversion at index inv_idx = 1 (A[1] = 64738008, A[2] = 29805289).
+Unsorted segment = [1, 2], length = 2.
+[TIME] total elapsed = 9.414327 sec
+======= sort_verify_omp.out (OpenMP, 8 threads) =======
+Array is NOT sorted.
+First adjacent inversion at index inv_idx = 98303998 (A[98303998] = 24769647, A[98303999] = 3602322).
+Unsorted segment = [98303997, 98303999], length = 3.
+[TIME] total elapsed = 9.649409 sec
+======= sort_verify_mpi_s.out (MPI‑Static, 8 ranks) =======
+Array is NOT sorted.
+First adjacent inversion at index inv_idx = 1 (A[1] = 64738008, A[2] = 29805289).
+Unsorted segment = [1, 2], length = 2.
+[TIME] total elapsed = 11.078357 sec
+======= sort_verify_mpi_d.out (MPI‑Dynamic, 8 ranks) =======
+Array is NOT sorted.
+First adjacent inversion at index inv_idx = 1 (A[1] = 64738008, A[2] = 29805289).
+Unsorted segment = [1, 2], length = 2.
+[TIME] total elapsed = 11.053894 sec

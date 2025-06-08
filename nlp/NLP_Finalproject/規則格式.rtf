@@ -1,0 +1,115 @@
+{\rtf1\ansi\ansicpg950\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red46\green49\blue51;\red24\green25\blue27;\red238\green240\blue241;
+\red15\green112\blue1;\red146\green0\blue13;}
+{\*\expandedcolortbl;;\cssrgb\c23529\c25098\c26275;\cssrgb\c12549\c12941\c14118;\cssrgb\c94510\c95294\c95686;
+\cssrgb\c0\c50196\c0;\cssrgb\c64706\c5490\c5490;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 This competition is evaluated by a\'a0{\field{\*\fldinst{HYPERLINK "https://scikit-learn.org/stable/modules/model_evaluation.html#from-binary-to-multiclass-and-multilabel"}}{\fldrslt \cf3 \strokec3 micro-averaged}}\'a0{\field{\*\fldinst{HYPERLINK "https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics"}}{\fldrslt \cf3 \strokec3 F1}}\'a0score.\
+For each instance, we predict a set of character spans. A\'a0
+\f1\b character span
+\f0\b0 \'a0is a pair of indexes representing a range of characters within a text. A span\'a0
+\f2 \cb4 i j
+\f0 \cb1 \'a0represents the characters with indices\'a0
+\f2 \cb4 i
+\f0 \cb1 \'a0through\'a0
+\f2 \cb4 j
+\f0 \cb1 , inclusive of\'a0
+\f2 \cb4 i
+\f0 \cb1 \'a0and exclusive of\'a0
+\f2 \cb4 j
+\f0 \cb1 . In Python notation, a span\'a0
+\f2 \cb4 i j
+\f0 \cb1 \'a0is equivalent to a slice\'a0
+\f2 \cb4 i:j
+\f0 \cb1 .\
+For each instance there is a collection of ground-truth spans and a collection of predicted spans. The spans we delimit with a semicolon, like:\'a0
+\f2 \cb4 0 3; 5 9
+\f0 \cb1 .\
+We score each character index as:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 TP if it is within both a ground-truth and a prediction,\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 FN if it is within a ground-truth but not a prediction, and,\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 FP if it is within a prediction but not a ground truth.\
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 Finally, we compute an overall F1 score from the TPs, FNs, and FPs aggregated across all instances.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b\fs36 \cf3 \strokec3 Example\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b0\fs28 \cf2 \strokec2 Suppose we have an instance:\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf2 \cb4 |\cf5 \strokec5  ground-truth \cf2 \strokec2 |\cf5 \strokec5  prediction    \cf2 \strokec2 |\
+|\cf5 \strokec5 --------------\cf2 \strokec2 |\cf5 \strokec5 ---------------\cf2 \strokec2 |\
+|\cf5 \strokec5  0 3; 3 5     \cf2 \strokec2 |\cf5 \strokec5  2 5; 7 9; 2 3 \cf2 \strokec2 |\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0 \cf2 These spans give the sets of indices:\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf2 \cb4 |\cf5 \strokec5  ground-truth \cf2 \strokec2 |\cf5 \strokec5  prediction \cf2 \strokec2 |\
+|\cf5 \strokec5 --------------\cf2 \strokec2 |\cf5 \strokec5 ------------\cf2 \strokec2 |\
+|\cf5 \strokec5  0 1 2 3 4    \cf2 \strokec2 |\cf5 \strokec5  2 3 4 7 8  \cf2 \strokec2 |\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0 \cf2 We therefore compute:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls2\ilvl0
+\f2 \cf2 \cb4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 TP = size of \{2, 3, 4\} = 3
+\f0 \cb1 \
+\ls2\ilvl0
+\f2 \cb4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 FN = size of \{0, 1\} = 2
+\f0 \cb1 \
+\ls2\ilvl0
+\f2 \cb4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 FP = size of \{7, 8\} = 2
+\f0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 Repeat for all instances, collect the TPs, FNs, and FPs, and compute the final F1 score.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b\fs36 \cf3 \strokec3 Sample Submission\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b0\fs28 \cf2 \strokec2 For each\'a0
+\f2 \cb4 id
+\f0 \cb1 \'a0in the test set, you must predict zero or more spans delimited by a semicolon. The file should contain a header and have the following format:\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf2 \cb4 id,location\
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 00016_000\cf2 \strokec2 ,\cf6 \strokec6 0\cf2 \strokec2  \cf6 \strokec6 100\cf2 \strokec2 \
+\cf6 \strokec6 00016_001\cf2 \strokec2 ,\
+\cf6 \strokec6 00016_002\cf2 \strokec2 ,\cf6 \strokec6 200 250;300\cf2 \strokec2  \cf6 \strokec6 500\cf2 \strokec2 \
+...\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0 \cf2 For\'a0
+\f2 \cb4 00016_000
+\f0 \cb1 \'a0you should give predictions for feature\'a0
+\f2 \cb4 000
+\f0 \cb1 \'a0in patient note\'a0
+\f2 \cb4 00016
+\f0 \cb1 .\
+}

@@ -1,0 +1,114 @@
+========== [1] Running serial.out (single‑thread) ==========
+First 10 sorted numbers:
+0.00 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.02 
+CPU sorting time: 0.338440 seconds
+--------------------------------------------
+========== [2] mpi_bucket.out  | processes = 1 ==========
+First 10 sorted numbers:
+0.00 0.00 0.00 0.00 0.00 0.01 0.01 0.01 0.01 0.01 
+Verification: PASSED
+CPU compute  time (local sort)   : 0.273388 s
+COMM overhead time (Bcast+Gather): 0.000260 s
+TOTAL wall‑clock time            : 0.275087 s
+--------------------------------------------
+========== [3] mpi_pipeline.out | processes = 1 ==========
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 251270 RUNNING AT cpn3022
+=   EXIT CODE: 1
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 251270 RUNNING AT cpn3022
+=   EXIT CODE: 1
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
+============================================
+========== [2] mpi_bucket.out  | processes = 2 ==========
+First 10 sorted numbers:
+0.00 0.00 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+Verification: PASSED
+CPU compute  time (local sort)   : 0.068087 s
+COMM overhead time (Bcast+Gather): 0.001276 s
+TOTAL wall‑clock time            : 0.070863 s
+--------------------------------------------
+========== [3] mpi_pipeline.out | processes = 2 ==========
+First 10 sorted numbers:
+0.00 0.00 0.00 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+Verification: PASSED
+CPU compute time (local sort + merges): 0.068168 s
+COMM time (pipeline transfers)         : 0.000035 s
+TOTAL wall‑clock time                  : 0.070499 s
+============================================
+========== [2] mpi_bucket.out  | processes = 4 ==========
+First 10 sorted numbers:
+0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.03 0.03 
+Verification: PASSED
+CPU compute  time (local sort)   : 0.016696 s
+COMM overhead time (Bcast+Gather): 0.002773 s
+TOTAL wall‑clock time            : 0.020849 s
+--------------------------------------------
+========== [3] mpi_pipeline.out | processes = 4 ==========
+First 10 sorted numbers:
+0.00 0.00 0.00 0.01 0.01 0.01 0.01 0.02 0.02 0.02 
+Verification: PASSED
+CPU compute time (local sort + merges): 0.017822 s
+COMM time (pipeline transfers)         : 0.000059 s
+TOTAL wall‑clock time                  : 0.021167 s
+============================================
+========== [2] mpi_bucket.out  | processes = 8 ==========
+First 10 sorted numbers:
+0.00 0.01 0.01 0.01 0.02 0.02 0.02 0.02 0.02 0.02 
+Verification: PASSED
+CPU compute  time (local sort)   : 0.004524 s
+COMM overhead time (Bcast+Gather): 0.003139 s
+TOTAL wall‑clock time            : 0.009063 s
+--------------------------------------------
+========== [3] mpi_pipeline.out | processes = 8 ==========
+First 10 sorted numbers:
+0.00 0.01 0.01 0.01 0.02 0.02 0.02 0.02 0.02 0.02 
+Verification: PASSED
+CPU compute time (local sort + merges): 0.004415 s
+COMM time (pipeline transfers)         : 0.000032 s
+TOTAL wall‑clock time                  : 0.008369 s
+============================================
+========== [2] mpi_bucket.out  | processes = 12 ==========
+First 10 sorted numbers:
+0.00 0.00 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+Verification: PASSED
+CPU compute  time (local sort)   : 0.002005 s
+COMM overhead time (Bcast+Gather): 0.004006 s
+TOTAL wall‑clock time            : 0.007414 s
+--------------------------------------------
+========== [3] mpi_pipeline.out | processes = 12 ==========
+First 10 sorted numbers:
+0.00 0.00 0.01 0.02 0.02 0.02 0.02 0.02 0.02 0.03 
+Verification: PASSED
+CPU compute time (local sort + merges): 0.002077 s
+COMM time (pipeline transfers)         : 0.000026 s
+TOTAL wall‑clock time                  : 0.007730 s
+============================================
+========== [2] mpi_bucket.out  | processes = 24 ==========
+First 10 sorted numbers:
+0.00 0.00 0.00 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+Verification: PASSED
+CPU compute  time (local sort)   : 0.000538 s
+COMM overhead time (Bcast+Gather): 0.029924 s
+TOTAL wall‑clock time            : 0.031845 s
+--------------------------------------------
+========== [3] mpi_pipeline.out | processes = 24 ==========
+First 10 sorted numbers:
+0.00 0.00 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.03 
+Verification: PASSED
+CPU compute time (local sort + merges): 0.000520 s
+COMM time (pipeline transfers)         : 0.000019 s
+TOTAL wall‑clock time                  : 0.047957 s
+============================================

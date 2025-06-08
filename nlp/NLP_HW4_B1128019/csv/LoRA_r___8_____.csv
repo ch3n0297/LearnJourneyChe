@@ -1,0 +1,4 @@
+Epoch,Loss (Reg),Loss (Cls),Spearman Corr,Accuracy,F1 Score,Model Path
+1,0.4632,1.5309,0.708529,0.564,0.240409,./saved_models/ep0.ckpt
+2,0.2346,0.4233,0.838216,0.724,0.619177,./saved_models/ep1.ckpt
+3,0.2943,1.1221,0.860699,0.834,0.829842,./saved_models/ep2.ckpt
