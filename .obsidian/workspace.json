@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/DM_Final/資料探勘期末B1128019.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "資料探勘期末B1128019"
+              "title": "README"
             }
           }
         ]
@@ -161,6 +161,7 @@
   },
   "active": "7abc8f0e23793d01",
   "lastOpenFiles": [
+    "Data Mining/DM_Final/資料探勘期末B1128019.md",
     "Data Mining/DM_Final/B1128019黃教丞FINAL.zip",
     "Data Mining/DM_Final/封存.zip",
     "Data Mining/DM_Final/B1128019黃教丞FINAL.pdf",
@@ -177,13 +178,11 @@
     "Self-learning.md",
     "流程圖.md",
     "資料探勘期末B1128019.md",
-    "Data Mining/DM_Final/資料探勘期末B1128019.md",
     "Data Mining/DM_Final/results_project2/pairplot.png",
     "Data Mining/DM_Final/results_project2/elbow_method_income_spending.png",
     "Data Mining/DM_Final/results_project2/income_vs_spending_scatter.png",
     "Data Mining/DM_Final/results_project2/elbow_method_all_features.png",
     "Data Mining/DM_Final/results_project2/clusters_pca_all_features.png",
-    "Data Mining/DM_Final/results_project2/cluster_summary_all_features.csv",
     "Data Mining/DM_Final/results_project2/clusters_income_spending.png",
     "Data Mining/DM_Final/results/shap_summary.png",
     "Data Mining/DM_Final/results/shap_feature_importance.png",
