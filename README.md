@@ -21,7 +21,7 @@ print(這是codeing格式，方法為)
 |智慧物聯網|[AIoT](https://github.com/ch3n0297/LearnJourneyChe/tree/main/AIoT)|
 |自然語言處理|[NLP](https://github.com/ch3n0297/LearnJourneyChe/tree/main/nlp)|
 |進階人工智慧程式設計|[AIP]()|
-|多媒體資訊概論|[MMIS]()|
+|多媒體資訊概論|[MMIS](https://github.com/ch3n0297/LearnJourneyChe/tree/main/Multimedia%20Information%20System)|
 
 
 ### **☞ Contract**
