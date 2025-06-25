@@ -1,0 +1,6 @@
+[submodule "AIoT/Sumo_final/SUMO_SDPAS"]
+	path = AIoT/Sumo_final/SUMO_SDPAS
+	url = https://github.com/ch3n0297/SUMO_SDPAS
+[submodule "AIoT/SUMO_SDPAS"]
+	path = AIoT/SUMO_SDPAS
+	url = https://github.com/ch3n0297/SUMO_SDPAS
