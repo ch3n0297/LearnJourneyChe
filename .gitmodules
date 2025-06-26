@@ -1,3 +1,6 @@
 [submodule "AIoT/SUMO_SDPAS"]
 	path = AIoT/SUMO_SDPAS
 	url = https://github.com/ch3n0297/SUMO_SDPAS
+[submodule "AIoT/traffic-optimization-project"]
+	path = AIoT/traffic-optimization-project
+	url = https://github.com/Alan52254/traffic-optimization-project
