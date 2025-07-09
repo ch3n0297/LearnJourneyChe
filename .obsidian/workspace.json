@@ -4,44 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "affad826be7fc1d1",
+        "id": "421ab390da6b39e1",
         "type": "tabs",
         "children": [
           {
-            "id": "c8904d222bb51b20",
+            "id": "5e352ffef640934b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "worklist/CarCase/🚘AICarFlow Analysis.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "🚘AICarFlow Analysis"
-            },
-            "group": "a557791b1912d768"
-          }
-        ]
-      },
-      {
-        "id": "1dd1808b03318511",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e29015e9f1552b4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "worklist/CarCase/🚘AICarFlow Analysis.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "🚘AICarFlow Analysis"
-            },
-            "group": "a557791b1912d768"
+              "title": "新分頁"
+            }
           }
         ]
       }
@@ -100,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "079fa200299cfdd0",
@@ -182,9 +155,18 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "e29015e9f1552b4c",
+  "active": "5e352ffef640934b",
   "lastOpenFiles": [
-    "worklist/CarCase/🚘AICarFlow Analysis.md",
+    "CarCase/AI 智慧車流分析系統(工作明書).md",
+    "Temp.md",
+    "CarCase/AI 智慧車流分析系統工作明書_V2_2025_07_06.pdf",
+    "CarCase/AI 智慧車流分析系統(工作明書).pdf",
+    "CarCase/離線車輛影像分析系統實作.md",
+    "CarCase/車輛通過數量辨識系統_v2_2025_03_02.md",
+    "CarCase/車輛追蹤計數系統架構.md",
+    "CarCase/🚘AICarFlow Analysis.md",
+    "CarCase/車輛通過數量辨識系統.md",
+    "未命名",
     "Multimedia Information System/HW1_DFT_Filter/DFT_filter/b_filter2.wav",
     "Multimedia Information System/HW1_DFT_Filter/DFT_filter/b_filter.wav",
     "Multimedia Information System/HW1_DFT_Filter/DFT_filter/b_cpy.wav",
@@ -192,9 +174,6 @@
     "Multimedia Information System/HW1_DFT_Filter/DFT_filter/Nello.wav",
     "Multimedia Information System/HW1_DFT_Filter/DFT_filter/B1128019HW1_DFTfilter.ipynb",
     "Multimedia Information System/Hw2_YUV_Subtransform/lena.raw",
-    "Multimedia Information System/Hw2_YUV_Subtransform/baboon.raw",
-    "Multimedia Information System/Hw2_YUV_Subtransform/Hw_image_2.raw",
-    "Multimedia Information System/Hw2_YUV_Subtransform/Hw_image_1.raw",
     "README.md",
     "Data Mining/DM_Final/資料探勘期末B1128019.md",
     "生物資訊學第五次作業.md",
@@ -222,13 +201,6 @@
     "worklist/BioinfoHomework1.md",
     "Network Security/Ns_筆記.md",
     "逐字稿finalproject_sumo.md",
-    "worklist/PPD_Final_Project.md",
-    "學生證.md",
-    "Test.md",
-    "AIoT/AIoT Demo Present.md",
-    "worklist/EDA.md",
-    "worklist/AIoT Exercise.md",
-    "worklist/NLP_HW3_B1128019.md",
-    "worklist/dmHW2.md"
+    "worklist/PPD_Final_Project.md"
   ]
 }
