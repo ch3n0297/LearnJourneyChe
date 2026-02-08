@@ -1,0 +1,60 @@
+{
+  "keep_root_paths": [
+    ".git",
+    ".gitattributes",
+    ".gitignore",
+    ".gitmodules",
+    ".obsidian",
+    "AGENTS.md",
+    "README.md",
+    "courses",
+    "projects",
+    "shared",
+    "inbox",
+    "archive",
+    "ops",
+    "worklist"
+  ],
+  "top_level_moves": {
+    "AIoT": "courses/aiot",
+    "Biologic Information": "courses/biologic_information",
+    "BlockChain": "courses/blockchain",
+    "ComputerVision": "courses/computer_vision",
+    "Data Mining": "courses/data_mining",
+    "Multimedia Information System": "courses/multimedia_information_system",
+    "Natural Language Process": "courses/natural_language_processing",
+    "Network Security": "courses/network_security",
+    "Parallel Programming Design": "courses/parallel_programming_design",
+    "Mcp Researching": "projects/mcp_research",
+    "Meeting Minute": "projects/meeting_minutes",
+    "others": "shared/references/others"
+  },
+  "root_file_moves": {
+    "AI 智慧車流分析系統工作明書_V3_2025_08_04.md": "projects/ai_car_flow/docs/ai_car_flow_system_statement_v3_2025_08_04.md",
+    "AIcarflow_7m29d_2025_Meeting.md": "projects/ai_car_flow/meeting_minutes/ai_car_flow_2025_07_29_meeting.md",
+    "CN.md": "shared/notes/cn.md",
+    "CV_AI_記憶架構.md": "courses/computer_vision/notes/cv_ai_memory_architecture.md",
+    "CV流程圖.md": "courses/computer_vision/notes/cv_process_flow.md",
+    "EECS101-HW1.md": "courses/eecs101/homework/eecs101_hw1.md",
+    "Prompt Test Set.md": "shared/references/prompt_test_set.md",
+    "TailscaleVPN-Debug.md": "shared/notes/tailscale_vpn_debug.md",
+    "Test.md": "inbox/triage/test.md",
+    "mcp-researching-report.md": "projects/mcp_research/mcp_researching_report.md",
+    "普物小考題目核心公式.md": "shared/notes/physics_quiz_core_formulas.md",
+    "未命名.md": "inbox/triage/untitled.md",
+    "流程圖.md": "shared/notes/process_flow.md",
+    "深耕紀錄報告.md": "shared/notes/deep_cultivation_record.md",
+    "物理作業HW4.md": "shared/notes/physics_homework_hw4.md",
+    "物理作業六.md": "shared/notes/physics_homework_6.md",
+    "物理期末複習.md": "shared/notes/physics_final_review.md",
+    "班代大會檢討.md": "shared/notes/class_representative_review.md",
+    "電腦通訊網路.md": "courses/network_security/notes/computer_communication_networks.md"
+  },
+  "default_root_file_destination": "inbox/triage",
+  "excluded_scan_dirs": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    ".ipynb_checkpoints"
+  ]
+}

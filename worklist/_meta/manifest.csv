@@ -1,0 +1,68 @@
+file_path,status,sensitivity,topic,owner,target_path,next_action,review_date
+worklist/README.md,intake,internal,,hjc,,triage,2026-02-08
+worklist/drafting/legacy_import/AIoT Exercise.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/BioinfoHomework1.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/CodeBaseFromQlearningTraffic.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/Data mining-Hw-1.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/EDA.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/Homework2_B1128019.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/Meeting.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/NLP_HW1_B1128019.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/NLP_HW3_B1128019.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/PPD_Final_Project.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/PPD_Final_Project.pdf,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/PPD_HW1_report.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/PPD_HW2_report.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/Self-learning.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/Test.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/bio_hw4.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/dmHW2.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/專題核銷.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/專題流程圖.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/流程圖.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/生物資訊學第五次作業.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/逐字稿final_AdvancedAI.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/drafting/legacy_import/逐字稿finalproject_sumo.md,drafting,internal,,hjc,,refine_content,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250427180947.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250427181410.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250520215407.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523012606.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523013413.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523013459.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523013838.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523013843.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523013857.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523013906.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523015257.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523015341.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250523015358.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250529023705.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250529023740.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250529023849.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250603213745.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20250605041726.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251104215539.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251104231230.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251120153244.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202185146.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202185711.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202193341.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202193353.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202193401.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202193404.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202195832.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202200039.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202200101.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202200118.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20251202200157.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20260114205113.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/Pasted image 20260114205120.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/blastp 1.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/blastp.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/chart1_integration_savings.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/chart2_complexity_vs_scale.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/chart3_maintenance_cost.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/chart4_token_optimization.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/chart5_summary_radar.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/tp53.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08
+worklist/raw_sources/image_storage/uniprot.png,raw_sources,internal,,hjc,,transform_before_publish,2026-02-08

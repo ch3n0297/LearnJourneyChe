@@ -1,0 +1,32 @@
+old_path,new_path,action,reason,owner,status
+AIoT,courses/aiot,move,top_level_reorg,hjc,planned
+Biologic Information,courses/biologic_information,move,top_level_reorg,hjc,planned
+BlockChain,courses/blockchain,move,top_level_reorg,hjc,planned
+ComputerVision,courses/computer_vision,move,top_level_reorg,hjc,planned
+Data Mining,courses/data_mining,move,top_level_reorg,hjc,planned
+Mcp Researching,projects/mcp_research,move,top_level_reorg,hjc,planned
+Meeting Minute,projects/meeting_minutes,move,top_level_reorg,hjc,planned
+Multimedia Information System,courses/multimedia_information_system,move,top_level_reorg,hjc,planned
+Natural Language Process,courses/natural_language_processing,move,top_level_reorg,hjc,planned
+Network Security,courses/network_security,move,top_level_reorg,hjc,planned
+Parallel Programming Design,courses/parallel_programming_design,move,top_level_reorg,hjc,planned
+others,shared/references/others,move,top_level_reorg,hjc,planned
+AI 智慧車流分析系統工作明書_V3_2025_08_04.md,projects/ai_car_flow/docs/ai_car_flow_system_statement_v3_2025_08_04.md,move,root_file_cleanup,hjc,planned
+AIcarflow_7m29d_2025_Meeting.md,projects/ai_car_flow/meeting_minutes/ai_car_flow_2025_07_29_meeting.md,move,root_file_cleanup,hjc,planned
+CN.md,shared/notes/cn.md,move,root_file_cleanup,hjc,planned
+CV_AI_記憶架構.md,courses/computer_vision/notes/cv_ai_memory_architecture.md,move,root_file_cleanup,hjc,planned
+CV流程圖.md,courses/computer_vision/notes/cv_process_flow.md,move,root_file_cleanup,hjc,planned
+EECS101-HW1.md,courses/eecs101/homework/eecs101_hw1.md,move,root_file_cleanup,hjc,planned
+mcp-researching-report.md,projects/mcp_research/mcp_researching_report.md,move,root_file_cleanup,hjc,planned
+Prompt Test Set.md,shared/references/prompt_test_set.md,move,root_file_cleanup,hjc,planned
+TailscaleVPN-Debug.md,shared/notes/tailscale_vpn_debug.md,move,root_file_cleanup,hjc,planned
+Test.md,inbox/triage/test.md,move,root_file_cleanup,hjc,planned
+普物小考題目核心公式.md,shared/notes/physics_quiz_core_formulas.md,move,root_file_cleanup,hjc,planned
+未命名.md,inbox/triage/untitled.md,move,root_file_cleanup,hjc,planned
+流程圖.md,shared/notes/process_flow.md,move,root_file_cleanup,hjc,planned
+深耕紀錄報告.md,shared/notes/deep_cultivation_record.md,move,root_file_cleanup,hjc,planned
+物理作業HW4.md,shared/notes/physics_homework_hw4.md,move,root_file_cleanup,hjc,planned
+物理作業六.md,shared/notes/physics_homework_6.md,move,root_file_cleanup,hjc,planned
+物理期末複習.md,shared/notes/physics_final_review.md,move,root_file_cleanup,hjc,planned
+班代大會檢討.md,shared/notes/class_representative_review.md,move,root_file_cleanup,hjc,planned
+電腦通訊網路.md,courses/network_security/notes/computer_communication_networks.md,move,root_file_cleanup,hjc,planned

@@ -1,0 +1,38 @@
+{
+  "default_owner": "hjc",
+  "sensitivity_levels": [
+    "public",
+    "internal",
+    "private"
+  ],
+  "status_flow": [
+    "intake",
+    "drafting",
+    "publish_queue",
+    "published"
+  ],
+  "private_name_patterns": [
+    "*學生證*",
+    "Invoice-*"
+  ],
+  "default_destinations": {
+    "course_note": "courses/<course_slug>/notes/",
+    "course_homework": "courses/<course_slug>/homework/",
+    "project_doc": "projects/<project_slug>/docs/",
+    "shared_note": "shared/notes/"
+  },
+  "rules": [
+    {
+      "if_path_prefix": "worklist/private_only/",
+      "set_sensitivity": "private",
+      "allow_publish": false
+    },
+    {
+      "if_path_prefix": "worklist/raw_sources/",
+      "set_sensitivity": "internal",
+      "allow_publish": true,
+      "require_transform": true
+    }
+  ],
+  "private_manifest_policy": "exclude_from_tracked_manifest"
+}

@@ -1,0 +1,13 @@
+2025-06-03 03:35:17,492 - WARNING - No explicit TL_ID; auto-selected 'joinedS_4335733876_4335735091_5246605981_5246605983_#11more' (busiest TL)
+2025-06-03 03:57:49,265 - INFO - [Ep 100] avg_reward(100)=-253.0, eps=0.606
+2025-06-03 04:19:53,731 - INFO - [Ep 200] avg_reward(100)=-249.1, eps=0.367
+2025-06-03 04:39:36,855 - INFO - [Ep 300] avg_reward(100)=-241.3, eps=0.222
+2025-06-03 04:59:11,263 - INFO - [Ep 400] avg_reward(100)=-227.1, eps=0.135
+2025-06-03 05:18:52,290 - INFO - [Ep 500] avg_reward(100)=-226.7, eps=0.100
+2025-06-03 05:38:36,114 - INFO - [Ep 600] avg_reward(100)=-225.4, eps=0.100
+2025-06-03 05:58:21,035 - INFO - [Ep 700] avg_reward(100)=-227.9, eps=0.100
+2025-06-03 06:17:51,089 - INFO - [Ep 800] avg_reward(100)=-224.9, eps=0.100
+2025-06-03 06:37:28,837 - INFO - [Ep 900] avg_reward(100)=-222.5, eps=0.100
+2025-06-03 06:57:05,624 - INFO - [Ep 1000] avg_reward(100)=-225.8, eps=0.100
+2025-06-03 06:57:05,982 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2025-06-03 06:57:06,029 - INFO - generated new fontManager

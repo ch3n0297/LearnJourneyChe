@@ -1,0 +1,35 @@
+# ----------------------------------------
+# Python 相關
+# ----------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境資料夾
+# 如果您的 Sum o 專案使用的是 .sumoEnv，請加入：
+.sumoEnv/
+env/
+venv/
+# 如果您使用不同名稱的虛擬環境，請一併列出
+
+
+# ----------------------------------------
+# OS 及編輯器相關
+# ----------------------------------------
+# macOS
+.DS_Store
+
+# VSCode 工作區設定
+.vscode/
+
+# JetBrains IDE (PyCharm, IntelliJ 等)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Temporary / backup files
+*.swp
+*~

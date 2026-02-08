@@ -1,10 +1,30 @@
+# System
 **/.DS_Store
+
+# Local agent instructions
 AGENTS.md
-worklist/*
+
+# Python and notebooks
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+
+# Generated reorg reports (can be regenerated)
+ops/reorg/reports/*.json
+
+# Worklist policy: keep metadata only, ignore staged/private payloads
+worklist/**
 !worklist/.gitkeep
-image_storage/*
-!image_storage/.gitkeep
-Ppd/Final_B1128019/rand100M.txt
-Meeting Minute/
-CarCase/
+!worklist/README.md
+!worklist/_meta/
+!worklist/_meta/manifest.csv
+!worklist/_meta/publish_rules.yaml
+!worklist/_meta/review_log.md
+
+# Legacy temporary files
 Temp.md
+
+# Local nested repo (excluded from main history)
+courses/computer_vision/L6_S/HW4/
