@@ -20,3 +20,11 @@
 /courses/computer_vision/L5_S/data/training.csv filter=lfs diff=lfs merge=lfs -text
 /courses/computer_vision/L5_S/shape_predictor_68_face_landmarks.dat filter=lfs diff=lfs merge=lfs -text
 /courses/computer_vision/L9_S/office.ply filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l3_s/data/test.csv filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l3_s/data/training.csv filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l4_s/data/test.csv filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l4_s/data/training.csv filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l5_s/data/test.csv filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l5_s/data/training.csv filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l5_s/shape_predictor_68_face_landmarks.dat filter=lfs diff=lfs merge=lfs -text
+/courses/computer_vision/labs/l9_s/office.ply filter=lfs diff=lfs merge=lfs -text

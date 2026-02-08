@@ -1,15 +1,15 @@
 # Learn Journey
 
-這個倉庫用來整理我的學習歷程，採用「課程主軸 + 專案區 + Worklist 中繼區」結構，讓內容能長期維護、可追溯、可逐步發布。
+這個倉庫用來整理我的學習歷程，採用「課程主軸 + 專案區 + Worklist 中繼區」架構，確保內容可長期維護、可追溯、可逐步發布。
 
 ## Repository Layout
 
-- `courses/`: 課程內容（作業、筆記、實驗、專題）。
+- `courses/`: 課程內容。
 - `projects/`: 跨課程專案與會議記錄。
 - `shared/`: 共用筆記、參考資料與素材。
-- `inbox/triage/`: 尚未分類內容的暫存入口。
-- `worklist/`: 中繼區（未完成、原始檔、敏感檔管理）。
-- `ops/reorg/`: 重整規則、mapping、腳本與報表。
+- `inbox/triage/`: 尚未分類內容暫存。
+- `worklist/`: 中繼區（草稿、原始檔、敏感檔）。
+- `ops/reorg/`: 倉庫重整規則、腳本、報告。
 
 ## Course Index
 
@@ -24,22 +24,26 @@
 - `courses/network_security`
 - `courses/parallel_programming_design`
 
-## Project Index
+## Standard Course Skeleton
 
-- `projects/ai_car_flow`
-- `projects/mcp_research`
-- `projects/meeting_minutes`
+第二輪細化後，每個課程資料夾都採用相同第一層結構：
 
-## Worklist Governance (重要)
+```text
+notes/ homework/ labs/ projects/ datasets/ reports/ assets/ references/ archive/
+```
 
-`worklist/` 是中繼區，不是最終內容區。預設流程如下：
+這讓課程新增內容時不需要再重新決定放置規則。
+
+## Worklist Governance
+
+`worklist/` 是中繼區，不是最終發布區。流程如下：
 
 1. 新檔案先放入 `worklist/intake/`。
-2. 在 `worklist/_meta/manifest.csv` 登記檔案狀態與敏感級別。
+2. 在 `worklist/_meta/manifest.csv` 登記「非 private」檔案狀態。
 3. 審核後移到 `drafting/`、`publish_queue/` 或 `private_only/`。
 4. 只有 `publish_queue/` 可升級到 `courses/`、`projects/`、`shared/`。
 
-更多規則請看 `worklist/README.md` 與 `worklist/_meta/publish_rules.yaml`。
+更多規則請見 `worklist/README.md` 與 `worklist/_meta/publish_rules.yaml`。
 
 ## Reorganization Automation
 
@@ -50,6 +54,7 @@
 - `apply_mapping.py`: 依 mapping 執行 dry-run 或實際搬移。
 - `rewrite_links.py`: 批次修正 Markdown/TXT 路徑引用。
 - `verify_repo.py`: 檢查命名與 worklist manifest 覆蓋率。
+- `refine_courses_round2.py`: 第二輪課程內部細化（統一第一層結構與主要命名）。
 
 範例：
 
@@ -59,6 +64,7 @@ python3 ops/reorg/scripts/build_mapping.py
 python3 ops/reorg/scripts/apply_mapping.py --mode dry-run
 python3 ops/reorg/scripts/apply_mapping.py --mode execute
 python3 ops/reorg/scripts/rewrite_links.py --mode write
+python3 ops/reorg/scripts/refine_courses_round2.py --mode execute
 python3 ops/reorg/scripts/verify_repo.py
 ```
 
