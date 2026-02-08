@@ -55,6 +55,7 @@ notes/ homework/ labs/ projects/ datasets/ reports/ assets/ references/ archive/
 - `rewrite_links.py`: 批次修正 Markdown/TXT 路徑引用。
 - `verify_repo.py`: 檢查命名與 worklist manifest 覆蓋率。
 - `refine_courses_round2.py`: 第二輪課程內部細化（統一第一層結構與主要命名）。
+- `refine_courses_round3.py`: 第三輪課程內容檔名正規化（受控範圍內改為 snake_case）。
 
 範例：
 
@@ -65,6 +66,7 @@ python3 ops/reorg/scripts/apply_mapping.py --mode dry-run
 python3 ops/reorg/scripts/apply_mapping.py --mode execute
 python3 ops/reorg/scripts/rewrite_links.py --mode write
 python3 ops/reorg/scripts/refine_courses_round2.py --mode execute
+python3 ops/reorg/scripts/refine_courses_round3.py --mode execute
 python3 ops/reorg/scripts/verify_repo.py
 ```
 

@@ -17,4 +17,5 @@ This folder stores the reorganization source of truth and automation tools.
 4. `apply_mapping.py --mode execute` after confirmation.
 5. `rewrite_links.py --mode write` to update references.
 6. `refine_courses_round2.py --mode execute` to normalize course first-level structure.
-7. `verify_repo.py` to validate naming and worklist governance.
+7. `refine_courses_round3.py --mode execute` to normalize in-scope course filenames.
+8. `verify_repo.py` to validate naming and worklist governance.
