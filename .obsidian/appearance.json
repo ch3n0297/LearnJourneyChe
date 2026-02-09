@@ -5,5 +5,8 @@
   "accentColor": "#beade6",
   "showRibbon": false,
   "interfaceFontFamily": "Times New Roman,Comic Sans MS",
-  "textFontFamily": "Times New Roman,Comic Sans MS"
+  "textFontFamily": "Times New Roman,Comic Sans MS",
+  "enabledCssSnippets": [
+    "font-assign"
+  ]
 }

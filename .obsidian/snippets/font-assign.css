@@ -1,0 +1,22 @@
+.markdown-preview-view,
+.markdown-rendered {
+  font-family:
+    "Times New Roman", Times, serif,
+    "DFKai-SB", "標楷體", "DFKai", DFKai-SB !important;
+}
+
+.markdown-preview-view code,
+.markdown-preview-view pre,
+.markdown-rendered code,
+.markdown-rendered pre {
+  font-family:
+    "Consolas", "Menlo", "Monaco", monospace !important;
+}
+
+/* ▼ Live‑Preview 和 Source‑Mode 編輯區（新編輯器） */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-source-view.mod-cm6 .cm-scroller * {
+  font-family:
+    "Times New Roman", Times, serif,
+    "DFKai-SB", "標楷體", "DFKai", DFKai-SB !important;
+}
