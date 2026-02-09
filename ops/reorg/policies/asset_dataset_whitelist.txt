@@ -1,0 +1,2 @@
+# Paths intentionally exempt from strict checks.
+# Keep this list short and explicit. One glob per line.

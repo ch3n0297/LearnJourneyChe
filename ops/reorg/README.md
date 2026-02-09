@@ -6,7 +6,8 @@ This folder stores the reorganization source of truth and automation tools.
 
 - `rules.yaml`: root-level move rules.
 - `mapping.csv`: generated move plan (`old_path -> new_path`).
-- `scripts/`: inventory, mapping, apply, link rewrite, round2 refine, and verify.
+- `scripts/`: inventory, mapping, apply, link rewrite, round2/round3 refine, and verify.
+- `policies/`: round4 naming policy + whitelist/ignore rules for assets and datasets.
 - `reports/`: generated JSON reports (ignored by Git except `.gitkeep`).
 
 ## Suggested workflow
@@ -18,4 +19,5 @@ This folder stores the reorganization source of truth and automation tools.
 5. `rewrite_links.py --mode write` to update references.
 6. `refine_courses_round2.py --mode execute` to normalize course first-level structure.
 7. `refine_courses_round3.py --mode execute` to normalize in-scope course filenames.
-8. `verify_repo.py` to validate naming and worklist governance.
+8. `verify_asset_dataset_policy.py` to enforce assets/datasets naming policy.
+9. `verify_repo.py` to validate naming and worklist governance.

@@ -1,0 +1,4 @@
+# Ignore OS noise and local temp files
+**/.DS_Store
+**/.ipynb_checkpoints/**
+**/.git/**
