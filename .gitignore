@@ -28,3 +28,6 @@ Temp.md
 
 # Local nested repo (excluded from main history)
 courses/computer_vision/labs/l6_s/HW4/
+
+# Private course content
+courses/eecs101/**
