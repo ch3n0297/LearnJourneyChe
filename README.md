@@ -26,57 +26,6 @@
 | Network Security | [`courses/network_security`](courses/network_security) | `[###-------] 33%` |
 | Parallel Programming Design | [`courses/parallel_programming_design`](courses/parallel_programming_design) | `[###-------] 33%` |
 
-## Standard Course Skeleton
-
-第二輪細化後，每個課程資料夾都採用相同第一層結構：
-
-```text
-notes/ homework/ labs/ projects/ datasets/ reports/ assets/ references/ archive/
-```
-
-這讓課程新增內容時不需要再重新決定放置規則。
-
-## Worklist Governance
-
-`worklist/` 是中繼區，不是最終發布區。流程如下：
-
-1. 新檔案先放入 `worklist/intake/`。
-2. 在 `worklist/_meta/manifest.csv` 登記「非 private」檔案狀態。
-3. 審核後移到 `drafting/`、`publish_queue/` 或 `private_only/`。
-4. 只有 `publish_queue/` 可升級到 `courses/`、`projects/`、`shared/`。
-
-更多規則請見 `worklist/README.md` 與 `worklist/_meta/publish_rules.yaml`。
-
-## Reorganization Automation
-
-重整腳本位於 `ops/reorg/scripts/`：
-
-- `inventory.py`: 產生檔案盤點報告。
-- `build_mapping.py`: 依規則產生 `ops/reorg/mapping.csv`。
-- `apply_mapping.py`: 依 mapping 執行 dry-run 或實際搬移。
-- `rewrite_links.py`: 批次修正 Markdown/TXT 路徑引用。
-- `verify_repo.py`: 檢查命名與 worklist manifest 覆蓋率。
-- `refine_courses_round2.py`: 第二輪課程內部細化（統一第一層結構與主要命名）。
-- `refine_courses_round3.py`: 第三輪課程內容檔名正規化（受控範圍內改為 snake_case）。
-- `verify_asset_dataset_policy.py`: 第四輪資產/資料集命名守門（白名單 + ignore 規則）。
-
-範例：
-
-```bash
-python3 ops/reorg/scripts/inventory.py --max-hash-bytes 0
-python3 ops/reorg/scripts/build_mapping.py
-python3 ops/reorg/scripts/apply_mapping.py --mode dry-run
-python3 ops/reorg/scripts/apply_mapping.py --mode execute
-python3 ops/reorg/scripts/rewrite_links.py --mode write
-python3 ops/reorg/scripts/refine_courses_round2.py --mode execute
-python3 ops/reorg/scripts/refine_courses_round3.py --mode execute
-python3 ops/reorg/scripts/verify_asset_dataset_policy.py
-python3 ops/reorg/scripts/verify_repo.py
-```
-
-第四輪規則檔位於 `ops/reorg/policies/asset_dataset_policy.json`，
-可透過 `asset_dataset_whitelist.txt` 與 `asset_dataset_ignore.txt` 做例外管理。
-
 ## Contact
 
 - Email: `hjcaieng@gmail.com`
