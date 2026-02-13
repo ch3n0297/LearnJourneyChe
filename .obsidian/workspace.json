@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f67111e5ae2d4f30",
+        "id": "3040562533a2137a",
         "type": "tabs",
         "children": [
           {
-            "id": "0828834b2d53b3a1",
+            "id": "b70567b99f66ef7c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -156,8 +156,19 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "0828834b2d53b3a1",
+  "active": "b70567b99f66ef7c",
   "lastOpenFiles": [
+    "worklist/drafting/eecs101/homework/eecs101_hw1.md",
+    "worklist/drafting/eecs101/reports",
+    "worklist/drafting/eecs101/references",
+    "worklist/drafting/eecs101/projects",
+    "worklist/drafting/eecs101/notes",
+    "worklist/drafting/eecs101/labs",
+    "worklist/drafting/eecs101/homework",
+    "worklist/drafting/eecs101/datasets",
+    "worklist/drafting/eecs101/assets",
+    "worklist/drafting/eecs101/archive",
+    "worklist/drafting/eecs101",
     "Mcp/MCP-Multi-LLM-Research-Report-en.md",
     "worklist/image_storage/chart5_summary_radar.png",
     "worklist/image_storage/chart4_token_optimization.png",
@@ -168,12 +179,7 @@
     "EECS101-HW1.md",
     "worklist/image_storage/Pasted image 20260114205120.png",
     "worklist/image_storage/Pasted image 20260114205113.png",
-    "Biologic Information/BioinfoHomework1_B1128019.pdf",
-    "Biologic Information/Bioinfo_HW5_B1128019.pdf",
-    "Biologic Information/bio_hw4.pdf",
     "Biologic Information/bio_gene_plot.png",
-    "Biologic Information/生物資訊學第五次作業.pdf",
-    "Multimedia Information System/112_1_Quiz3.pdf",
     "worklist/dmHW2.md",
     "worklist/Data mining-Hw-1.md",
     "worklist/CodeBaseFromQlearningTraffic.md",
@@ -196,13 +202,7 @@
     "物理作業HW4.md",
     "流程圖.md",
     "班代大會檢討.md",
-    "深耕紀錄報告.md",
     "worklist/image_storage/Pasted image 20251202200157.png",
-    "worklist/image_storage/Pasted image 20251202200118.png",
-    "BlockChain/H1_BC_B1128019.pdf",
-    "CarCase/AI 智慧車流分析系統工作明書_V2_2025_07_06.pdf",
-    "CarCase/AI 智慧車流分析系統(工作明書).pdf",
-    "未命名",
-    "Multimedia Information System/HW1_DFT_Filter/DFT_filter/b_filter2.wav"
+    "worklist/image_storage/Pasted image 20251202200118.png"
   ]
 }
