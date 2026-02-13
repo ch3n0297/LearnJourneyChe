@@ -13,16 +13,18 @@
 
 ## Course Index
 
-- `courses/aiot`
-- `courses/biologic_information`
-- `courses/blockchain`
-- `courses/computer_vision`
-- `courses/data_mining`
-- `courses/eecs101`
-- `courses/multimedia_information_system`
-- `courses/natural_language_processing`
-- `courses/network_security`
-- `courses/parallel_programming_design`
+| 課程名稱 | 路徑 | 完整度 |
+| --- | --- | --- |
+| AIoT | [`courses/aiot`](courses/aiot) | `[##--------] 22%` |
+| Biologic Information | [`courses/biologic_information`](courses/biologic_information) | `[###-------] 33%` |
+| Blockchain | [`courses/blockchain`](courses/blockchain) | `[#---------] 11%` |
+| Computer Vision | [`courses/computer_vision`](courses/computer_vision) | `[##--------] 22%` |
+| Data Mining | [`courses/data_mining`](courses/data_mining) | `[##--------] 22%` |
+| EECS101 | [`courses/eecs101`](courses/eecs101) | `[#---------] 11%` |
+| Multimedia Information System | [`courses/multimedia_information_system`](courses/multimedia_information_system) | `[##--------] 22%` |
+| Natural Language Processing | [`courses/natural_language_processing`](courses/natural_language_processing) | `[###-------] 33%` |
+| Network Security | [`courses/network_security`](courses/network_security) | `[###-------] 33%` |
+| Parallel Programming Design | [`courses/parallel_programming_design`](courses/parallel_programming_design) | `[###-------] 33%` |
 
 ## Standard Course Skeleton
 
