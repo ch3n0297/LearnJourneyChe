@@ -20,6 +20,7 @@
 | Blockchain | [`courses/blockchain`](courses/blockchain) | `[#---------] 11%` |
 | Computer Vision | [`courses/computer_vision`](courses/computer_vision) | `[##--------] 22%` |
 | Data Mining | [`courses/data_mining`](courses/data_mining) | `[##--------] 22%` |
+| Deep Learning Application | [`courses/deep_learning_application`](courses/deep_learning_application) | `[#---------] 11%` |
 | EECS101 | [`courses/eecs101`](courses/eecs101) | `[#---------] 11%` |
 | Multimedia Information System | [`courses/multimedia_information_system`](courses/multimedia_information_system) | `[##--------] 22%` |
 | Natural Language Processing | [`courses/natural_language_processing`](courses/natural_language_processing) | `[###-------] 33%` |
